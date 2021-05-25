@@ -9,6 +9,7 @@ import {books}from '../book-data'
 })
 export class homeComponent {
     books=books
+    arr=[]
     Title=''
 
     delete=false
