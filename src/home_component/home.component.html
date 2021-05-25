@@ -1,0 +1,20 @@
+<h1>this is home component</h1>
+
+<div class="container">
+
+<div class='divs' *ngFor='let book of books ' >{{book.Title}}<br/> {{book.Author}} <br/> <img src={{book.img}}/> 
+<button 
+
+
+
+
+>update</button>
+<button (click)='onDelete(book.Title)'>delete</button>
+</div>
+
+</div>
+
+<div class='delete-modal' *ngIf='delete'>Do you really want to delete?<br/> 
+<button (click)='yes()' >Yes</button>
+<button (click)='no()' > No</button>
+</div>

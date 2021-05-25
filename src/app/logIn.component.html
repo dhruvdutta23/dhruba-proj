@@ -1,0 +1,11 @@
+<label>
+    Username : <input [(ngModel)]='username' placeholder="enter username"/>
+    <p *ngIf='cond1' >empty field</p>
+
+    <br/>
+
+    Password : <input [(ngModel)]='password' placeholder="enter Password"/>
+    <p *ngIf='cond2' >empty field</p>
+</label>
+<br/>
+<button (click)="onClick()">Sign in</button>

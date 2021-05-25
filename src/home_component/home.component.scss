@@ -1,0 +1,28 @@
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divs{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    width: 140px;
+    margin-bottom: 30px;
+
+    img{
+        width: 140px;
+    }
+}
+
+.delete-modal{
+    width: 100vh;
+    color:green;
+    background-color: yellow;
+    position: absolute;
+    top:0px;
+    margin: auto;
+}
